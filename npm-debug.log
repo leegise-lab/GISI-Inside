@@ -1,0 +1,31 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'express',
+1 verbose cli   'socket.io' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly rollbackFailedOptional Starting
+8 silly rollbackFailedOptional Finishing
+9 silly runTopLevelLifecycles Starting
+10 silly runTopLevelLifecycles Finishing
+11 silly install printInstalled
+12 verbose stack Error: ENOENT: no such file or directory, stat '/var/www/html/node_modules/socket.io'
+13 verbose cwd /var/www/html
+14 error Linux 5.0.0-36-generic
+15 error argv "/usr/bin/node" "/usr/bin/npm" "install" "express" "socket.io"
+16 error node v8.10.0
+17 error npm  v3.5.2
+18 error path /var/www/html/node_modules/socket.io
+19 error code ENOENT
+20 error errno -2
+21 error syscall stat
+22 error enoent ENOENT: no such file or directory, stat '/var/www/html/node_modules/socket.io'
+23 error enoent ENOENT: no such file or directory, stat '/var/www/html/node_modules/socket.io'
+23 error enoent This is most likely not a problem with npm itself
+23 error enoent and is related to npm not being able to find a file.
+24 verbose exit [ -2, true ]
